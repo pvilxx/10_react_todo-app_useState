@@ -1,0 +1,9 @@
+.subheader {
+  margin-bottom: 1.5rem;
+}
+
+.subheader__title {
+  color: #666;
+  font-size: 1.8rem;
+  text-align: center;
+} 

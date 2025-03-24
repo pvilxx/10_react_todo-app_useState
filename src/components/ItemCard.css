@@ -1,0 +1,50 @@
+.item-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.item-card__title {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.item-card__title--done {
+  text-decoration: line-through;
+}
+
+.item-card__title--in-progress {
+  font-weight: bold;
+}
+
+.item-card__description {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.item-card__status {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.item-card__status--done {
+  background-color: rgba(46, 204, 113, 0.2);
+  color: var(--done-color);
+}
+
+.item-card__status--in-progress {
+  background-color: rgba(52, 152, 219, 0.2);
+  color: var(--in-progress-color);
+}
+
+.item-card__status--pending {
+  background-color: rgba(149, 165, 166, 0.2);
+  color: var(--pending-color);
+} 

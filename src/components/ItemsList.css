@@ -1,0 +1,13 @@
+.items-list {
+  width: 100%;
+  padding: 0;
+}
+
+.items-list__empty {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  color: #666;
+  list-style: none;
+} 

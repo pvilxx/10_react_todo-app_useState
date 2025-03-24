@@ -1,0 +1,12 @@
+.list-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .list-container {
+    width: 60%;
+  }
+} 

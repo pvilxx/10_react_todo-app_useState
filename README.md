@@ -1,8 +1,45 @@
-# React + Vite
+# TodoApp - React Todo List Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Todo List Manager application built with React, using the useState hook to manage state.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of todo items with different status states (pending, in progress, done)
+- Add new tasks with a form
+- Items have visual indicators based on their status
+- Responsive design with mobile-first approach
+
+## Getting Started
+
+1. Install dependencies:
+   ```
+   npm install
+   ```
+
+2. Start the development server:
+   ```
+   npm run dev
+   ```
+
+3. Build for production:
+   ```
+   npm run build
+   ```
+
+4. Run tests:
+   ```
+   npm test
+   ```
+
+## Technologies Used
+
+- React
+- Vite
+- CSS with BEM methodology
+- Vitest for testing
+
+## Project Structure
+
+- `src/components/` - React components (Header, Subheader, ListContainer, etc.)
+- `src/__tests__/` - Test files for components
+- `src/test/` - Test configuration
